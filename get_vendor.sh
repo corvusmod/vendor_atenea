@@ -42,7 +42,7 @@ RIL="/lib/mtk-ril.so /lib/librilmtk.so /lib/libaed.so \
 AUDIO="/lib/libaudio.primary.default.so /lib/libblisrc.so /lib/libspeech_enh_lib.so /lib/libaudiocustparam.so /lib/libaudiosetting.so \
 /lib/libaudiocompensationfilter.so /lib/libbessound_mtk.so /lib/libcvsd_mtk.so /lib/libmsbc_mtk.so /lib/libaudiocomponentengine.so \
 /lib/libblisrc32.so /lib/libbessound_hd_mtk.so /lib/libmtklimiter.so /lib/libmtkshifter.so /lib/libaudiodcrflt.so \
-/lib/libbluetoothdrv.so"
+/lib/libbluetoothdrv.so /lib/libcutilz.so"
 
 SYSTEM="$FIRMWARE $WIFI $GL $RIL $AUDIO"
 
