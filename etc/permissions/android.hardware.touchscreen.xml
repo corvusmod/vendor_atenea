@@ -18,5 +18,4 @@
      support multitouch. -->
 <permissions>
     <feature name="android.hardware.touchscreen" />
-    <feature name="android.hardware.faketouch" />
 </permissions>

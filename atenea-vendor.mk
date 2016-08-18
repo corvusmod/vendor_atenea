@@ -1,9 +1,4 @@
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/hexxa/atenea/bin,system/bin)
+# Pick up overlay for features that depend on non-open-source files
+DEVICE_PACKAGE_OVERLAYS := vendor/hexxa/atenea/overlay
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/hexxa/atenea/lib,system/lib)
-
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/hexxa/atenea/etc,system/etc)
-
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/hexxa/atenea/vendor,system/vendor)
-
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/hexxa/atenea/xbin,system/xbin)
+$(call inherit-product, vendor/hexxa/atenea/atenea-vendor-blobs.mk)
