@@ -1,3 +1,5 @@
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/hexxa/atenea/app,system/app)
+
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/hexxa/atenea/bin,system/bin)
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/hexxa/atenea/lib,system/lib)
